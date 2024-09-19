@@ -1,0 +1,171 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #ffffff, #ffffff);
+  color: #333;
+  margin: auto;
+  padding: 1;
+}
+
+.container1 {
+  height: 23rem;
+  width: 650px;
+  margin: auto;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 5%;
+  text-align: center;
+}
+
+.container {
+  height: 60rem;
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+header {
+  background: hsl(45, 100%, 76%);
+  color: #000000;
+  padding: 2rem;
+  box-shadow: #000000;
+  text-align: center;
+}
+
+.profile-pic {
+  border-radius: 3%;
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.photo {
+  display: flex;
+  width: max-content;
+  gap: 1rem;
+  animation: infinite-scroll 120s linear infinite
+  
+}
+
+.horizontal-scroll {
+  width: 100;
+  overflow-x: scroll;
+  overflow: hidden;
+  scrollbar-color: transparent transparent;
+  animation-iteration-count: infinite;
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+  display: none;
+  
+  
+}
+
+@keyframes infinite-scroll {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translate(-100%);
+  }
+}
+
+h1 {
+  color: #000000;
+}
+
+.details, .rsvp {
+  margin: 20px 0;
+  text-align: left;
+}
+
+label {
+  display: flex;
+  margin: 10px 0 10px;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #d63939;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #b02929;
+}
+
+
+.hidden {
+  display: none;
+}
+
+#responseMessage {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #00ff0d;
+  height: 1px;
+  
+}
+
+.peta {
+  text-align: center;
+  color: transparent
+}
+
+iframe {
+  text-align: center;
+  width: 550px;
+  height: 300px;
+  padding: 3px;
+
+}
+
+audio {
+  text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+  iframe {
+    text-align: center;
+
+  }
+
+  }
+
+
+.container1{
+  width: 30rem;
+}
+header {
+width: rem;
+  margin: auto;
+  text-align: right;
+  padding: 100p;
+
+}
+
+.container {
+  width: 100rem;
+  margin: auto;
+  text-align: center;
+}
+
